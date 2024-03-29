@@ -1,1 +1,21 @@
-{"audio_filepath": "conversations/conversation-40.wav", "offset": 0, "duration": 4597.790736, "label": "infer", "text": "-", "num_speakers": 3, "rttm_filepath": "conversations/conversation-40.rttm", "uem_filepath": null}
+{"audio_filepath": "conversations/conversation-61.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 5973.0}
+{"audio_filepath": "conversations/conversation-69.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 4216.914859}
+{"audio_filepath": "conversations/conversation-81.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 5166.258409}
+{"audio_filepath": "conversations/conversation-55.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 6106.962281}
+{"audio_filepath": "conversations/conversation-70.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 2121.101674}
+{"audio_filepath": "conversations/conversation-65.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 5694.153722}
+{"audio_filepath": "conversations/conversation-59.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 4360.607944}
+{"audio_filepath": "conversations/conversation-40.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 4597.790736}
+{"audio_filepath": "conversations/conversation-79.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 2764.444498}
+{"audio_filepath": "conversations/conversation-66.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 5325.81841}
+{"audio_filepath": "conversations/conversation-73.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 3178.212945}
+{"audio_filepath": "conversations/conversation-72.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 400.0}
+{"audio_filepath": "conversations/conversation-46.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 4586.723158}
+{"audio_filepath": "conversations/conversation-67.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 5519.30804}
+{"audio_filepath": "conversations/conversation-42.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 5788.474726}
+{"audio_filepath": "conversations/conversation-39.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 3693.349431}
+{"audio_filepath": "conversations/conversation-82.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 4667.848277}
+{"audio_filepath": "conversations/conversation-80.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 3288.419301}
+{"audio_filepath": "conversations/conversation-57.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 6056.42146}
+{"audio_filepath": "conversations/conversation-41.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 4145.945112}
+{"audio_filepath": "conversations/conversation-7.wav", "offset": 0.0, "text": "-", "label": "infer", "duration": 2664.0}

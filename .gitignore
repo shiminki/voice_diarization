@@ -1,0 +1,18 @@
+# Conversation data
+conversations
+
+# Past project
+IAP
+NeMo_diarizer.ipynb
+
+# NeMo Module
+NeMo
+
+# outputs
+outputs
+outputs_no_oracle
+
+# Models
+diar_msdd_telephonic.nemo
+titanet-l.nemo
+vad_multilingual_marblenet.nemo
