@@ -66,6 +66,40 @@ except ImportError:
         yield
 
 
+"""
+Majority of this code are from
+
+url: https://nvidia.github.io/NeMo/
+repository-code: https://github.com/NVIDIA/NeMo
+
+We modified from the following components from the repository
+
+Diarizer:
+    * 
+
+Utility:
+    * nemo/collections/asr/parts/utils/vad_utils.py
+    * nemo/collections/asr/parts/utils/speaker_utils.py
+"""
+
+
+
+def config_setup(paths2audio_files, manifest_filepath, durations, num_speakers=None):
+    """
+    Changes audio manifest file
+    Arguments:
+        * file_dir (str): directory to audio file
+    """
+
+    with open(manifest_filepath, 'w', encoding='utf-8') as fp:
+        for i, audio_file in enumerate(paths2audio_files):
+            audio_file = audio_file.strip()
+            entry = {'audio_filepath': audio_file, 'offset': 0.0, 'text': '-', 'label': 'infer'}
+            if num_speakers is not None:
+                entry['num_speakers'] = num_speakers[i]
+            if durations is not None:
+                entry['duration'] = durations[i]
+            fp.write(json.dumps(entry) + '\n')
 
 def generate_overlap_vad_seq(
     frame_pred_dir: str,
