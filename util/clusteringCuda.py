@@ -8,6 +8,16 @@ from nemo.collections.asr.parts.utils.offline_clustering import (
     estimateNumofSpeakers
 )
 
+"""
+We modified the code from
+
+url: https://nvidia.github.io/NeMo/
+repository-code: https://github.com/NVIDIA/NeMo
+
+Specifically, the code is from
+nemo/collections/asr/parts/utils/longform_clustering.py
+"""
+
 class LongFormSpeakerClusteringCuda(LongFormSpeakerClustering):
     def __init__(self, device):
         super().__init__()
