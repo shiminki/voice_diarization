@@ -11,3 +11,14 @@ This model facilitates diarization based on audio input and the specified number
 ```
 python diarization.py
 ```
+
+## Model Performance
+
+The table below summarizes the diarization performance of the model:
+
+| Metric         | Missed Detection | False Alarm | Confusion Rate | DER     |
+|----------------|------------------|-------------|----------------|---------|
+| Mean           | 0.047562         | 0.024156    | 0.079058       | 0.150776|
+| Standard Dev.  | 0.028238         | 0.011271    | 0.052352       | 0.059052|
+
+We plan to further enhance the model performance by [utilizing post-processing techniques](https://arxiv.org/abs/2309.05248) for diarization results.
