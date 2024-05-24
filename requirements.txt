@@ -1,0 +1,29 @@
+# Python version requirement for NeMo library
+python_version==3.10
+
+# Package requirements
+nemo==1.23.0
+torch==2.2.2
+braceexpand
+editdistance
+einops
+g2p_en
+ipywidgets
+jiwer
+kaldi-python-io
+kaldiio
+lhotse>=1.22.0
+librosa>=0.10.0
+marshmallow
+matplotlib
+packaging
+pyannote.core
+pyannote.metrics
+pydub
+pyloudnorm
+resampy
+ruamel.yaml
+scipy>=0.14
+soundfile
+sox
+texterrors
